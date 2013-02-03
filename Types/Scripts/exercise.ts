@@ -5,7 +5,7 @@ class Exercise {
         this.proportion = proportion;
         this.KmIndexWhenDone = newKmIndex - previousKmIndex;
     }
-    KmIndexWhenDone: number;
+    private KmIndexWhenDone: number;
     
     Cristina() { return this.KmIndexWhenDone * this.proportion.Cristina; }
     Stefan() { return this.KmIndexWhenDone * this.proportion.Stefan; }
